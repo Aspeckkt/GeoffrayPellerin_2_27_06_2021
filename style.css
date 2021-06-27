@@ -156,9 +156,9 @@ img {
     border: 1px solid #DEEBFF;
     color: #0065FC;
     font-size: 20px;
-    margin: 0px;
-    padding: 17px;
-    width: -2px;
+    margin: -2px;
+    padding: 8px;
+    width: 20px;
 }
 
 .btn {
@@ -437,9 +437,11 @@ footer a {
     .header-navigation-links-mobile,
     .header-signup-mobile {
         display: none;
+        color: #0065FC;
     }
     .header-signup {
         display: initial;
+        color: #0065FC;
     }
     .header-signup:hover {
         color: #0065FC;
@@ -551,6 +553,7 @@ footer a {
     .header-navigation-links,
     .header-signup {
         padding: 26px;
+        color: #0065FC;
     }
 
     .header-signup-mobile {
