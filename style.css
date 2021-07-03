@@ -9,6 +9,7 @@ img {
     width: 100%;
 }
 /* Header configuration */
+
 .header {
     align-items: center;
     color: #F2F2F2;
@@ -223,6 +224,11 @@ img {
     font-size: 10px;
     margin-top: 8px;
 }
+/* main class container */
+.container_global{
+    max-width: 1240px;
+    margin: auto;
+}
 /* section one */
 .section-one h3 {
     padding-top: 10px;
@@ -328,6 +334,7 @@ img {
 footer {
     background-color: #F2F2F2;
     padding: 20px;
+    margin: 0px;
 }
 footer ul {
     list-style: none;
@@ -379,6 +386,9 @@ footer a {
         color: #0065FC;
     }
     /* Changes for filters */
+    .filters h3{
+        width: 100px;
+    }
     .filters-buttons {
         display: flex;
         flex-wrap: nowrap;
@@ -455,9 +465,14 @@ footer a {
 /**** mediaquerie for screen < 992px ******/
 @media screen and (min-width: 992px) {
     body {
-        max-width: 1240px;
+        max-width: 1800px;
         margin: auto;
     }
+    .container_global{
+        margin: auto;
+        width: 80%;
+    }
+    
     /*** changes for header section ***/
     .header img {
         width: 100px;
