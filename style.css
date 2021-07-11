@@ -35,7 +35,7 @@ img {
 .header-navigation-links-mobile {
     display: flex;
     justify-content: space-around;
-    padding: 9px 36px;
+    padding: 9px 50px;
     text-decoration: none;
 }
 .header-navigation-links-mobile [data-active=true] {
@@ -203,7 +203,7 @@ img {
     width: 128px;
 }
 .most-popular .card .content-card {
-    padding-top: 15px
+    padding-top: 15px;
 }
 .most-popular .content-card h4 {
     font-size: 16px;
@@ -215,8 +215,8 @@ img {
     text-align: left;
 }
 .most-popular .ratting-stars {
-    margin-left: 10px;
-    padding-top: 19px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .most-popular .fa-star {
     font-size: 10px;
@@ -331,8 +331,8 @@ img {
 /************* Footer ****************/
 footer {
     background-color: #F2F2F2;
-    padding: 20px;
     margin: 0px;
+    max-width: 100%;
 }
 footer ul {
     list-style: none;
@@ -351,7 +351,6 @@ footer a {
 /**** mediaquerie for screen < 768px ******/
 @media screen and (min-width: 768px) {
     .body {
-        margin: auto
     }
     /*  Changes for header section  */
     .header {
@@ -447,6 +446,7 @@ footer a {
         list-style: none;
         padding: 20px;
         text-align: left;
+        max-width: 100%;
     }
     h2 {
         font-size: 18px;
@@ -464,12 +464,12 @@ footer a {
 /**** mediaquerie for screen < 992px ******/
 @media screen and (min-width: 992px) {
     body {
-        max-width: 1920px;
-        margin: auto;
+        max-width: 1800px;
     }
     .container_global{
         margin: auto;
-        width: 80%;
+        width: 100%;
+        max-width: 1600px;
     }
     
     /*** changes for header section ***/
@@ -509,7 +509,7 @@ footer a {
         padding: 0px;
     }
     .most-popular {
-        min-width: 22%;
+        min-width: 26%;
         display: flex;
         flex-direction: column;
     }
